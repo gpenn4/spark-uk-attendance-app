@@ -1,13 +1,10 @@
 import pandas as pd
+import sys
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import (
-    col,
-    substring,
-)
 
 import queries, util
 
-DATA_FILE = "data/Absence_3term201819_nat_reg_la_sch.csv"
+DATA_FILE = "../data/Absence_3term201819_nat_reg_la_sch.csv"
 DATA_URL = "https://explore-education-statistics.service.gov.uk/data-catalogue/data-set/097fd311-d368-4a12-ac38-45efab3f3f95/csv"
 
 def main_menu():
@@ -16,7 +13,7 @@ def main_menu():
         print("1. Search enrolments by local authority.")
         print("2. Search authorised absences by school type.")
         print("3. Search unauthorised absences by region or local authority.")
-        print("4. Compare 2 Local Authorities.")
+        print("4. Compare 2 local authorities.")
         print("5. Explore performance of regions from 2006-2018.")
         print("6. Explore link between school type, location, and pupil absences.")
         print("7. Exit/ Quit")

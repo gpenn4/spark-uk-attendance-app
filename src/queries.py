@@ -8,7 +8,6 @@ from pyspark.sql.functions import (
 
 import util
 
-
 def search_enrolments(
     df,
     loc_col="la_name",
