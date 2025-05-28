@@ -195,13 +195,16 @@ You can find more information about the dataset [here]()
 
     Unauthorised Absence: BROMLEY is 7.24% higher than EALING.
     ```
-    ![Average Absence Rates: Bromley and Ealing](example_plots/avg-absence-rates.png)
+![Average Absence Rates: Bromley and Ealing](example_plots/avg-absence-rates.png)
+
 ##### 5. Explore the performance of regions between 2006 and 2018.
     ```
     Enter your choice (1-7): #5
-    ````
-    ![Regional Average Absence Rates (2006-2018)](example_plots/regional-avg-absence-rates-2006-18.png)
-    ![Regional Average Absence Rate Change (2006-2018)](example_plots/regional-avg-absence-rate-change-2006-18.png)
+    ```
+
+![Regional Average Absence Rates (2006-2018)](example_plots/regional-avg-absence-rates-2006-18.png)
+![Regional Average Absence Rate Change (2006-2018)](example_plots/regional-avg-absence-rate-change-2006-18.png)
+
     ```
     +------------------------+--------------------+
     |region_name             |avg_overall_absences|
@@ -218,7 +221,8 @@ You can find more information about the dataset [here]()
     |North East              |5.5594              |
     +------------------------+--------------------+
     ```
-    ![Regional Absence Rate Deviations (2006-2018)](example_plots/regional-absence-rate-deviations.png)
+![Regional Absence Rate Deviations (2006-2018)](example_plots/regional-absence-rate-deviations.png)
+
 ##### 6. Explore the link between school type, location, and pupil absences.
     ```
     Enter your choice (1-7): #6
@@ -258,4 +262,5 @@ You can find more information about the dataset [here]()
     |Yorkshire and the Humber|State-funded primary  |4.61274882051282  |
     +------------------------+----------------------+------------------+
     ```
-    ![Average Absence Rate by Region and School Type](example_plots/avg-absence-rate-by-region-school-type.png)
+
+![Average Absence Rate by Region and School Type](example_plots/avg-absence-rate-by-region-school-type.png)
