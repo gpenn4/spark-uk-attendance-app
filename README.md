@@ -19,6 +19,14 @@
 │   ├── main.py
 │   ├── queries.py
 │   └── util.py
+│
+│
+├── example_plots/
+│   ├── avg-absence-rate-by-region-school-type.png
+│   ├── avg-absence-rates.png
+│   ├── regional-absence-rate-deviations.png
+│   ├── regional-avg-absence-rate-change-2006-18.png
+│   └── regional-avg-absence-rates-2006-18.png
 ```
 
 ### Installation
@@ -262,5 +270,4 @@ You can find more information about the dataset [here]()
     |Yorkshire and the Humber|State-funded primary  |4.61274882051282  |
     +------------------------+----------------------+------------------+
     ```
-
 ![Average Absence Rate by Region and School Type](example_plots/avg-absence-rate-by-region-school-type.png)
