@@ -1,19 +1,18 @@
 # England School Absence Analysis
 
 ## Table of Contents
-- [Repository](#Repository-Structure)
+- [Repository](#Repository)
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Dataset](#dataset)
 - [Notes](#Notes)
+- [Example Usage](#Example-Usage)
 
 ### Repository
 ```
 ├── README.md                     
 ├── requirements.txt    
 │          
-├── data/                         
-│   └── Absence_3term201819_nat_reg_la_sch.csv
 │
 ├── src/
 │   ├── main.py
@@ -30,7 +29,7 @@
 ```
 
 ### Installation
-1. Open the terminal qnd navigate into the source folder.
+1. Open the terminal and navigate into the source folder.
     ```bash
     $  cd spark-uk-attendance-app/src
     ```
@@ -46,6 +45,8 @@
     ```bash
     $  pip install -r requirements.txt
     ```
+4. Create a folder named data in the root of your repository.
+5. Download the data set [from this page](https://explore-education-statistics.service.gov.uk/data-catalogue/data-set/097fd311-d368-4a12-ac38-45efab3f3f95) and place the file inside the data folder.
 
 ### Usage
 1. Open the terminal, navigate into the source folder, and activate the virtual environment.
@@ -72,6 +73,7 @@ You can find more information about the dataset [here]()
     e.g. 2008 refers to the 2008-2009 school year.
 - All text input commands must be followed by hitting the 'enter' key.
 - You must exit out of the graphs/ charts to continue with the analysis.
+- Improved functionality if you download the dataset to your local device. If you do not want to download the file, open main.py and follow the comments to uncomment/comment the relevant lines of code as instructed.
 
 ### Example Usage
 ```
